@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">my login</string>
+    <string name="let">Let`s <b>Sign In</b>👇</string>
+    <string name="description">Enter your email and password to login</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="showpassword">Show password</string>
+    <string name="login">Login</string>
+    <string name="page_title">Profile</string>
+    <string name="jonathan">Jonathan Anderson</string>
+<string name="jonatan_gmail">jonathan@email.com</string>
+    <string name="_30"><b>30</b></string>
+    <string name="_12">12</string>
+    <string name="listings">listings</string>
+</resources>
