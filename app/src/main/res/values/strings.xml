@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">my login</string>
     <string name="let">Let`s <b>Sign In</b>👇</string>
     <string name="description">Enter your email and password to login</string>
@@ -8,7 +8,7 @@
     <string name="login">Login</string>
     <string name="page_title">Profile</string>
     <string name="jonathan">Jonathan Anderson</string>
-<string name="jonatan_gmail">jonathan@email.com</string>
+    <string name="jonatan_gmail">jonathan@email.com</string>
     <string name="_30"><b>30</b></string>
     <string name="_12">12</string>
     <string name="listings">listings</string>
@@ -16,4 +16,6 @@
     <string name="home_money_2"><b>$ 320</b>/moth</string>
     <string name="FairviewApartment">Fairview Apartment</string>
     <string name="shoolviewhouse">Shoolview House</string>
+    <string name="number" tools:ignore="TypographyDashes">+62 112–3288-9111</string>
+    <string name="chooselocation">Choose location</string>
 </resources>

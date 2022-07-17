@@ -43,6 +43,7 @@
         app:layout_constraintTop_toBottomOf="@id/profile" />
 
     <ImageButton
+        android:id="@+id/profile_change_pencil"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:background="@drawable/image_change_style"
@@ -220,71 +221,73 @@
     <ImageButton
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_margin="8dp"
         android:background="@drawable/home_button_style"
         android:src="@drawable/home_still_2"
         app:layout_constraintBottom_toBottomOf="@id/home_image1"
-        app:layout_constraintStart_toStartOf="@id/home_image1"
-        android:layout_margin="8dp"
-        />
+        app:layout_constraintStart_toStartOf="@id/home_image1" />
+
     <ImageButton
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_margin="8dp"
         android:background="@drawable/home_button_style"
         android:src="@drawable/home_still"
         app:layout_constraintBottom_toBottomOf="@id/home_image2"
-        app:layout_constraintStart_toStartOf="@id/home_image2"
-        android:layout_margin="8dp"
-        />
+        app:layout_constraintStart_toStartOf="@id/home_image2" />
+
     <TextView
         android:layout_width="75dp"
         android:layout_height="25dp"
+        android:layout_margin="8dp"
         android:background="@drawable/home_money_style"
+        android:gravity="center"
         android:text="@string/home_money_1"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/home_image1"
-        app:layout_constraintEnd_toEndOf="@id/home_image1"
-        android:gravity="center"
-        android:layout_margin="8dp"
-        />
+        app:layout_constraintEnd_toEndOf="@id/home_image1" />
+
     <TextView
         android:layout_width="75dp"
         android:layout_height="25dp"
+        android:layout_margin="8dp"
         android:background="@drawable/home_money_style"
+        android:gravity="center"
         android:text="@string/home_money_2"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/home_image2"
-        app:layout_constraintEnd_toEndOf="@id/home_image2"
-        android:gravity="center"
-        android:layout_margin="8dp"
-        />
+        app:layout_constraintEnd_toEndOf="@id/home_image2" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="@string/FairviewApartment"
         android:textColor="#252B5C"
+        android:textSize="12sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/home_image1"
-        app:layout_constraintStart_toStartOf="@id/home_image1"
         app:layout_constraintEnd_toEndOf="@id/home_image1"
-        android:layout_marginTop="10dp"
-        android:textSize="12sp"/>
+        app:layout_constraintStart_toStartOf="@id/home_image1"
+        app:layout_constraintTop_toBottomOf="@id/home_image1" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
         android:text="@string/shoolviewhouse"
         android:textColor="#252B5C"
+        android:textSize="12sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/home_image2"
         app:layout_constraintStart_toStartOf="@id/home_image2"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="16dp"
-        android:textSize="12sp"/>
-<com.google.android.material.bottomnavigation.BottomNavigationView
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    app:menu="@menu/main_menu"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/home_image2" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/main_menu" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

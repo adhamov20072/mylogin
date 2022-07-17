@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             }
             else {
                 startActivity(Intent(this, MainActivity2::class.java))
+                finish()
             }
         }
     }

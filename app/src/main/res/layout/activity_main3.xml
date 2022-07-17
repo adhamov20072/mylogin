@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.MainActivity">
-
+    tools:context=".Activity.MainActivity3">
     <ImageButton
         android:id="@+id/btnback"
         android:layout_width="50dp"
@@ -15,30 +14,31 @@
         android:src="@drawable/ic_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
-        android:id="@+id/txtlets"
+        android:id="@+id/profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="@string/let"
-        android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="@id/btnback"
-        app:layout_constraintTop_toBottomOf="@id/btnback" />
-
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="229dp"
-        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/page_title"
+        android:textAppearance="@style/page_title"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="20dp"
-        android:gravity="top"
-        android:lineSpacingExtra="6sp"
-        android:text="@string/description"
-        android:textAppearance="@style/description"
-        android:translationY="-2.96sp"
-        app:layout_constraintStart_toStartOf="@id/txtlets"
-        app:layout_constraintTop_toBottomOf="@id/txtlets" />
-
+        android:background="@drawable/image_style"
+        android:src="@drawable/hhape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile"
+        />
     <EditText
         android:id="@+id/edit_1"
         android:layout_width="327dp"
@@ -46,67 +46,65 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="24dp"
         android:background="@drawable/form_text_style"
-        android:drawableStart="@drawable/ic_email_1"
-        android:drawablePadding="10dp"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress"
+        android:drawableEnd="@drawable/ic_menu_button_profile"
+        android:paddingEnd="12dp"
+        android:text="@string/jonathan"
+        android:inputType="text"
         android:paddingStart="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/description" />
-
+        app:layout_constraintTop_toBottomOf="@id/image_view" />
     <EditText
         android:id="@+id/edit_2"
         android:layout_width="327dp"
         android:layout_height="70dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="24dp"
         android:background="@drawable/form_text_style"
-        android:drawableStart="@drawable/ic_password"
-        android:drawablePadding="10dp"
-        android:hint="@string/pass"
-        android:inputType="textPassword"
+        android:drawableEnd="@drawable/ic_baseline_call_24"
+        android:paddingEnd="12dp"
+        android:text="@string/number"
+        android:inputType="phone"
         android:paddingStart="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit_1" />
-
-    <TextView
-        android:id="@+id/show_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="16dp"
+    <EditText
+        android:id="@+id/edit_3"
+        android:layout_width="327dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="24dp"
-        android:gravity="right|top"
-        android:letterSpacing="0.03"
-        android:lineSpacingExtra="6sp"
-        android:text="@string/showpassword"
-        android:textColor="#252B5C"
-        android:textSize="12sp"
+        android:background="@drawable/form_text_style"
+        android:drawableEnd="@drawable/ic_email_2"
+        android:paddingEnd="12dp"
+        android:text="@string/jonatan_gmail"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit_2" />
-
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/login"
+        android:id="@+id/change_button"
         android:layout_width="327dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="39dp"
+        android:layout_marginBottom="24dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/login_style"
-        android:text="@string/login"
+        android:text="@string/chooselocation"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/show_password" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
