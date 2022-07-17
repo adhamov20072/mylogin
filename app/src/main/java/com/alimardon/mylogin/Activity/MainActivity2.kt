@@ -1,4 +1,4 @@
-package com.alimardon.mylogin
+package com.alimardon.mylogin.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

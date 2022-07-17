@@ -7,6 +7,7 @@
         <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/drawable/form_text_e.xml" value="0.1725" />
         <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/drawable/form_text_style.xml" value="0.1135" />
         <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/drawable/home_button_style.xml" value="0.11" />
+        <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/drawable/home_money_style.xml" value="0.11" />
         <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/drawable/home_style.xml" value="0.11" />
         <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/drawable/ic_home_button_1.xml" value="0.11" />
         <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/drawable/ic_shape_1_.xml" value="0.11" />
@@ -18,7 +19,8 @@
         <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/drawable/love_button_style.xml" value="0.11" />
         <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/drawable/oval_style.xml" value="0.133" />
         <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/layout/activity_main2.xml" value="0.5" />
+        <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/Alimardon/AndroidStudioProjects/mylogin/app/src/main/res/menu/main_menu.xml" value="0.196875" />
       </map>
     </option>
   </component>

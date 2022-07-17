@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".Activity.MainActivity2">
 
     <TextView
         android:id="@+id/profile"
@@ -235,5 +235,56 @@
         app:layout_constraintStart_toStartOf="@id/home_image2"
         android:layout_margin="8dp"
         />
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:background="@drawable/home_money_style"
+        android:text="@string/home_money_1"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/home_image1"
+        app:layout_constraintEnd_toEndOf="@id/home_image1"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        />
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:background="@drawable/home_money_style"
+        android:text="@string/home_money_2"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/home_image2"
+        app:layout_constraintEnd_toEndOf="@id/home_image2"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FairviewApartment"
+        android:textColor="#252B5C"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/home_image1"
+        app:layout_constraintStart_toStartOf="@id/home_image1"
+        app:layout_constraintEnd_toEndOf="@id/home_image1"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shoolviewhouse"
+        android:textColor="#252B5C"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/home_image2"
+        app:layout_constraintStart_toStartOf="@id/home_image2"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:textSize="12sp"/>
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:menu="@menu/main_menu"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
 

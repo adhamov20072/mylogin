@@ -1,12 +1,10 @@
-package com.alimardon.mylogin
+package com.alimardon.mylogin.Activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.annotation.RequiresApi
-import androidx.core.graphics.red
+import com.alimardon.mylogin.R
 import com.alimardon.mylogin.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -26,7 +24,7 @@ class MainActivity : AppCompatActivity() {
                 binding.edit2.setHintTextColor(R.color.red)
             }
             else {
-                startActivity(Intent(this,MainActivity2::class.java))
+                startActivity(Intent(this, MainActivity2::class.java))
             }
         }
     }

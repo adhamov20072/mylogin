@@ -12,4 +12,8 @@
     <string name="_30"><b>30</b></string>
     <string name="_12">12</string>
     <string name="listings">listings</string>
+    <string name="home_money_1"><b>$ 370</b>/moth</string>
+    <string name="home_money_2"><b>$ 320</b>/moth</string>
+    <string name="FairviewApartment">Fairview Apartment</string>
+    <string name="shoolviewhouse">Shoolview House</string>
 </resources>
